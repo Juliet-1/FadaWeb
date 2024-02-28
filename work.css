@@ -1,43 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(image/background.jpg);
     background-size: cover;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.cont{
+.cont {
     background-color: #fff;
     text-align: center;
     height: 95vh;
     margin: 3em 3em 0 3em;
     opacity: 0.9;
     align-self: center;
-    border-radius:0 20px 0;
+    border-radius: 0 20px 0;
 }
 
-h1{
+h1 {
     padding: 1em;
     font-family: sans-serif;
 }
 
-p{
+p {
     padding: 1em;
     font-size: 20px;
 }
 
 @media only screen and (max-width: 480px) {
-    .maind{
-        width:100% ;
+    .maind {
+        width: 100%;
     }
-    .cont{}
-} 
-
-
-
-    
+    .cont {}
+}
